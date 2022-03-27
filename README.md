@@ -139,7 +139,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 
 ### إصلاح الخلل في عامل الزيادة
 
-يوجد خطأ في طريقة [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) `getNumbersBetween()` ، يرجى البحث عنها وإصلاحها.
+يوجد خطأ في طريقة `getNumbersBetween()` [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) ، يرجى البحث عنها وإصلاحها.
 
 `getNumbersBetween()` الأرقام بين `startInclusive` و `endInclusive` ، على سبيل المثال:
 
@@ -152,7 +152,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
         -   إذا كنت لا تعرف كيف يمكنك النقر فوق [استيراد مشروع إلى IDEA](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/clone-and-import.md) / [استيراد مشروع إلى VSCode](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/clone-and-import-vscode.md) .
         -   قبل إرسال التعليمات البرمجية الخاصة بك ، من الأفضل تشغيل `mvn verify` محليًا لتوفير الوقت. لا أعرف كيف؟ انظر [التحقق محليًا في IDEA](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/run-mvn-verify-idea.md) / [تحقق محليًا في VSCode](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   غير موصى به على الإطلاق: يمكنك [النقر هنا لتنزيل رمز مضغوط](https://codeload.github.com/ByteLegendQuest/java-fix-increment-bug/zip/refs/heads/main) إذا كنت لا تحب عمليات `git` .
-    -   أو: إذا كنت واثقًا بدرجة كافية من كتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
+    -   أو: إذا كنت واثقًا بدرجة كافية لكتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
     -   أو: إذا كنت معتادًا على GitHub ، فيمكنك تفرع [الريبو](https://github.com/ByteLegendQuest/java-fix-increment-bug) وإنهاء التحدي وإنشاء طلب سحب.
 -   سيتحقق الروبوت من العلاقات العامة الخاصة بك ويخبرك إذا أنجزت التحدي.
 -   ارجع إلى [ByteLegend وتابع](https://bytelegend.com) رحلة بطلك.
@@ -171,7 +171,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 
 ### Corrija o bug no operador de incremento
 
-Há um bug no método `getNumbersBetween()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) , por favor, localize-o e corrija-o.
+Há um bug no método `getNumbersBetween()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) , por favor, encontre e corrija.
 
 `getNumbersBetween()` retorna os números entre `startInclusive` e `endInclusive` , por exemplo:
 
@@ -237,7 +237,7 @@ Jika Anda memerlukan bantuan, jangan ragu untuk bergabung dengan [Komunitas Disc
 
 Il y a un bogue dans la méthode `getNumbersBetween()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) , veuillez le trouver et le corriger.
 
-`getNumbersBetween()` renvoie les nombres entre `startInclusive` et `endInclusive` , par exemple :
+`getNumbersBetween()` renvoie les nombres entre `startInclusive` et `endInclusive` , par exemple :
 
 `startInclusive=1, endInclusive=3` , renvoie `[1, 2, 3]` .
 
