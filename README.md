@@ -1,9 +1,9 @@
-## [ByteLegend](https://bytelegend.com) Challenge of JavaIsland: Calculation and Operators
+# [ByteLegend](https://bytelegend.com) Challenge of JavaIsland: Calculation and Operators
 
 <details open='true'>
 <summary>English</summary>
 
-### Fix the bug in increment operator
+## Fix the bug in increment operator
 
 There is a bug in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java)'s `getNumbersBetween()` method, please find and fix it.
 
@@ -39,7 +39,7 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>简体中文</summary>
 
-### 修复自增运算符的bug
+## 修复自增运算符的bug
 
 请修复[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java)的`getNumbersBetween()`方法中有一个bug，请找到并修复之。
 
@@ -73,7 +73,8 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>繁體中文</summary>
 
-### 修復增量運算符中的錯誤
+修復增量運算符中的錯誤
+-----------
 
 [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java)的`getNumbersBetween()`方法有一個錯誤，請查找並修復它。
 
@@ -105,7 +106,8 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>Español</summary>
 
-### Arreglar el error en el operador de incremento
+Arreglar el error en el operador de incremento
+----------------------------------------------
 
 Hay un error en el método `getNumbersBetween()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) , búsquelo y corríjalo.
 
@@ -137,9 +139,10 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <details>
 <summary>العربية</summary>
 
-### إصلاح الخلل في عامل الزيادة
+إصلاح الخلل في عامل الزيادة
+---------------------------
 
-يوجد خطأ في طريقة `getNumbersBetween()` [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) ، يرجى البحث عنها وإصلاحها.
+يوجد خطأ في طريقة [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) `getNumbersBetween()` ، يرجى البحث عنها وإصلاحها.
 
 `getNumbersBetween()` الأرقام بين `startInclusive` و `endInclusive` ، على سبيل المثال:
 
@@ -152,7 +155,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
         -   إذا كنت لا تعرف كيف يمكنك النقر فوق [استيراد مشروع إلى IDEA](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/clone-and-import.md) / [استيراد مشروع إلى VSCode](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/clone-and-import-vscode.md) .
         -   قبل إرسال التعليمات البرمجية الخاصة بك ، من الأفضل تشغيل `mvn verify` محليًا لتوفير الوقت. لا أعرف كيف؟ انظر [التحقق محليًا في IDEA](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/run-mvn-verify-idea.md) / [تحقق محليًا في VSCode](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   غير موصى به على الإطلاق: يمكنك [النقر هنا لتنزيل رمز مضغوط](https://codeload.github.com/ByteLegendQuest/java-fix-increment-bug/zip/refs/heads/main) إذا كنت لا تحب عمليات `git` .
-    -   أو: إذا كنت واثقًا بدرجة كافية لكتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
+    -   أو: إذا كنت واثقًا بدرجة كافية من كتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
     -   أو: إذا كنت معتادًا على GitHub ، فيمكنك تفرع [الريبو](https://github.com/ByteLegendQuest/java-fix-increment-bug) وإنهاء التحدي وإنشاء طلب سحب.
 -   سيتحقق الروبوت من العلاقات العامة الخاصة بك ويخبرك إذا أنجزت التحدي.
 -   ارجع إلى [ByteLegend وتابع](https://bytelegend.com) رحلة بطلك.
@@ -169,7 +172,8 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <details>
 <summary>Português</summary>
 
-### Corrija o bug no operador de incremento
+Corrija o bug no operador de incremento
+---------------------------------------
 
 Há um bug no método `getNumbersBetween()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) , por favor, encontre e corrija.
 
@@ -181,11 +185,11 @@ Há um bug no método `getNumbersBetween()` de [src/main/java/com/bytelegend/Cha
 
 -   Você pode realizar este desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-fix-increment-bug` para baixar o código, termine o desafio em seu IDE local e copie/cole/envie a resposta no editor da web.
-        -   Se você não sabe como, você pode clicar em [import project into IDEA](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-fix-increment-bug/zip/refs/heads/main) se não gostar das operações do `git` .
     -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
-    -   Ou: se você estiver familiarizado com o GitHub, você pode fazer o fork [do repo](https://github.com/ByteLegendQuest/java-fix-increment-bug) , finalizar o desafio e criar uma pull request.
+    -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-fix-increment-bug) , finalizar o desafio e criar um pull request.
 -   O bot verificará seu PR e informará se você cumprir o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
 
@@ -201,7 +205,8 @@ Se precisar de ajuda, sinta-se à vontade para se juntar à [Comunidade Discord]
 <details>
 <summary>Bahasa Indonesia</summary>
 
-### Perbaiki bug di operator kenaikan
+Perbaiki bug di operator kenaikan
+---------------------------------
 
 Ada bug dalam metode `getNumbersBetween()` [src/main/Java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) , tolong temukan dan perbaiki.
 
@@ -233,7 +238,8 @@ Jika Anda memerlukan bantuan, jangan ragu untuk bergabung dengan [Komunitas Disc
 <details>
 <summary>Français</summary>
 
-### Correction du bogue dans l'opérateur d'incrémentation
+Correction du bogue dans l'opérateur d'incrémentation
+-----------------------------------------------------
 
 Il y a un bogue dans la méthode `getNumbersBetween()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) , veuillez le trouver et le corriger.
 
@@ -265,7 +271,8 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>日本語</summary>
 
-### インクリメント演算子のバグを修正
+インクリメント演算子のバグを修正
+----------------
 
 [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java)の`getNumbersBetween()`メソッドにバグがあります。見つけて修正してください。
 
@@ -297,7 +304,8 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>Русский</summary>
 
-### Исправлена ошибка в операторе приращения
+Исправлена ошибка в операторе приращения
+----------------------------------------
 
 В методе `getNumbersBetween()` [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) есть ошибка, найдите и исправьте ее.
 
@@ -329,7 +337,8 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>Deutsch</summary>
 
-### Beheben Sie den Fehler im Inkrementoperator
+Beheben Sie den Fehler im Inkrementoperator
+-------------------------------------------
 
 Es gibt einen Fehler in der Methode `getNumbersBetween()` von [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) , bitte finden und beheben Sie ihn.
 
@@ -361,7 +370,8 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 <details>
 <summary>한국어</summary>
 
-### 증가 연산자의 버그 수정
+증가 연산자의 버그 수정
+-------------
 
 [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) 의 `getNumbersBetween()` 메소드에 버그가 있습니다. 찾아서 수정해주세요.
 
@@ -393,7 +403,8 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 <details>
 <summary>Italiano</summary>
 
-### Risolto il bug nell'operatore di incremento
+Risolto il bug nell'operatore di incremento
+-------------------------------------------
 
 C'è un bug nel metodo `getNumbersBetween()` di [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-increment-bug/blob/main/src/main/java/com/bytelegend/Challenge.java) , trovalo e correggilo.
 
