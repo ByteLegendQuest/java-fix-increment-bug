@@ -1,7 +1,6 @@
 package com.bytelegend;
 
 import java.util.Arrays;
-import java.util.stream.IntStream;
 
 public class Challenge {
     public static void main(String[] args) {
@@ -18,6 +17,13 @@ public class Challenge {
      * <p>`startInclusive=6, endInclusive=10`, returns`[6, 7, 8, 9, 10]`.
      */
     public static int[] getNumbersBetween(int startInclusive, int endInclusive) {
-        return IntStream.range(startInclusive, endInclusive + 1).toArray();
+        int[] result = new int[endInclusive - startInclusive + 1];
+        int number = startInclusive;
+        while (true) {
+            result[number - startInclusive] = ++number;
+            if (number > endInclusive) {
+                return result;
+            }
+        }
     }
 }
