@@ -20,8 +20,7 @@ public class Challenge {
         int[] result = new int[endInclusive - startInclusive + 1];
         int number = startInclusive;
         while (true) {
-            result[number - startInclusive] = number;
-            ++number;
+            result[number - startInclusive] = ++number;
             if (number > endInclusive) {
                 return result;
             }
