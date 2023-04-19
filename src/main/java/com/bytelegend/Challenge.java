@@ -17,14 +17,10 @@ public class Challenge {
      * <p>`startInclusive=6, endInclusive=10`, returns`[6, 7, 8, 9, 10]`.
      */
     public static int[] getNumbersBetween(int startInclusive, int endInclusive) {
-        if (startInclusive == endInclusive) {
-            return new int[] {0};
-        }
-
         int[] result = new int[endInclusive - startInclusive + 1];
         int number = startInclusive;
         while (true) {
-            result[number - startInclusive] = ++number -1;
+            result[number - startInclusive] = ++number;
             if (number > endInclusive) {
                 return result;
             }
