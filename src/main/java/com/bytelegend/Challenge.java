@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Challenge {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(getNumbersBetween(0, 0)));
+        System.out.println(Arrays.toString(getNumbersBetween(1, 3)));
         System.out.println(Arrays.toString(getNumbersBetween(6, 10)));
     }
 
@@ -24,7 +24,7 @@ public class Challenge {
         int[] result = new int[endInclusive - startInclusive + 1];
         int number = startInclusive;
         while (true) {
-            result[number - startInclusive] = ++number;
+            result[number - startInclusive] = ++number -1;
             if (number > endInclusive) {
                 return result;
             }
