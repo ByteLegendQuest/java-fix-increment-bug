@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Challenge {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(getNumbersBetween(1, 3)));
+        System.out.println(Arrays.toString(getNumbersBetween(0, 0)));
         System.out.println(Arrays.toString(getNumbersBetween(6, 10)));
     }
 
@@ -17,6 +17,10 @@ public class Challenge {
      * <p>`startInclusive=6, endInclusive=10`, returns`[6, 7, 8, 9, 10]`.
      */
     public static int[] getNumbersBetween(int startInclusive, int endInclusive) {
+        if (startInclusive == endInclusive) {
+            return new int[] {0};
+        }
+
         int[] result = new int[endInclusive - startInclusive + 1];
         int number = startInclusive;
         while (true) {
