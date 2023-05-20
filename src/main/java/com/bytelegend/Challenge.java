@@ -18,9 +18,12 @@ public class Challenge {
      */
     public static int[] getNumbersBetween(int startInclusive, int endInclusive) {
         int[] result = new int[endInclusive - startInclusive + 1];
-        for (int i = 0; i < result.length; i++) {
-            result[i] = startInclusive + i;
+        int number = startInclusive;
+        while (true) {
+            result[number - startInclusive] = ++number;
+            if (number > endInclusive) {
+                return result;
+            }
         }
-        return result;
     }
 }
